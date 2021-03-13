@@ -1,0 +1,36 @@
+{
+  "name": "plumbi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calvh/plumbi.git"
+  },
+  "author": "Calvin Ho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calvh/plumbi/issues"
+  },
+  "homepage": "https://github.com/calvh/plumbi#readme",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "cookie-parser": "^1.4.5",
+    "debug": "^2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "http-errors": "^1.7.2",
+    "mongoose": "^5.11.19",
+    "morgan": "^1.10.0",
+    "socket.io": "^3.1.2"
+  },
+  "devDependencies": {
+    "faker": "^5.4.0",
+    "papaparse": "^5.3.0"
+  }
+}

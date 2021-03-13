@@ -1,0 +1,31 @@
+body {
+  background-color: #f8f9fa;
+}
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.post-text {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+#input-country-flag {
+  height: 2.5rem;
+}
+
+.countryFlag {
+  height: 1.5rem;
+}
+
+textarea {
+  height: 15rem !important;
+}
+
+i {
+  /* fix bug with bootstrap v5 beta */
+  /* https://stackoverflow.com/questions/65858926/bootstrap-tooltip-bug-when-hovering-child-node */
+  /* todo remove when fixed */
+  pointer-events: none !important;
+}
